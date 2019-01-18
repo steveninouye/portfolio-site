@@ -129,13 +129,13 @@
         top = '-1000%';
         bottom = 0;
       } else if ($this.hasClass('bottom')) {
-        mode = 'bottom-only';
-        top = '-120%';
-        bottom = '50%';
+        mode = 'bottom';
+        top = '21%';
+        bottom = '-180%';
       } else {
         mode = 'middle';
         top = '-60%';
-        bottom = '50%';
+        bottom = '-50%';
       }
 
       // Add scrollex.
@@ -182,7 +182,7 @@
     on = function() {
       $this.scrollex({
         top: '4%',
-        bottom: '5%',
+        bottom: '4%',
         initialize: function(t) {
           $this.addClass('inactive');
         },
