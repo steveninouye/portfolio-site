@@ -131,7 +131,7 @@
       } else if ($this.hasClass('bottom')) {
         mode = 'bottom';
         top = '21%';
-        bottom = '-180%';
+        bottom = '-0%';
       } else {
         mode = 'middle';
         top = '-60%';
