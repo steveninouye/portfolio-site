@@ -16,14 +16,15 @@
 }
 
 #about-me > .tech-icons {
-  grid-row: 1 / span 6;
+  grid-row: 1 / span 7;
   grid-column: 3/4;
 }
 
 #about-me > .tech-icons > img {
-  height: 3em;
+  height: 3.3em;
   width: auto;
-  margin:  0 .5em .5em .5em;
+  margin:  0 .7em .7em .7em;
+  opacity: .63;
 }
 
 html,
