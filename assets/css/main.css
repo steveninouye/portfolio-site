@@ -2,17 +2,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic');
 
 #about-me {
-  display: flex;
+  display: grid;
+  grid-template: auto / 1fr 3fr 2fr;
+  grid-gap: 10px;
   justify-content: center;
+  padding: 2%;
 }
 
-#about-me > .col-1 {
-  margin: 5px;
-}
-
-#about-me > .col-1 > .description-title {
+#about-me > .title {
   font-size: 1.5em;
   font-weight: 600;
+  grid-column-start: 1;
+}
+
+#about-me > .tech-icons {
+  grid-row: 1 / span 6;
+  grid-column: 3/4;
+}
+
+#about-me > .tech-icons > img {
+  height: 2.5em;
+  width: auto;
 }
 
 html,
