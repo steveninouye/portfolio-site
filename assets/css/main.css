@@ -1,13 +1,18 @@
 @import url('font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic');
 
-#description {
+#about-me {
   display: flex;
   justify-content: center;
 }
 
-#description > .col-1 {
+#about-me > .col-1 {
   margin: 5px;
+}
+
+#about-me > .col-1 > .description-title {
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 html,
