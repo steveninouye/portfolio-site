@@ -10,21 +10,29 @@
 }
 
 #about-me > .title {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 600;
   grid-column-start: 1;
 }
 
+#about-me > .name {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
 #about-me > .tech-icons {
-  grid-row: 1 / span 7;
+  grid-row: 1 / span 9;
   grid-column: 3/4;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 #about-me > .tech-icons > img {
   height: 3.3em;
   width: auto;
-  margin:  0 .7em .7em .7em;
-  opacity: .63;
+  margin:  0 .73em .73em .73em;
+  opacity: .64;
 }
 
 html,
