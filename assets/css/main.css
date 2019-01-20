@@ -1,6 +1,15 @@
 @import url('font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic');
 
+#description {
+  display: flex;
+  justify-content: center;
+}
+
+#description > .col-1 {
+  margin: 5px;
+}
+
 html,
 body,
 div,
@@ -3273,8 +3282,8 @@ body.is-touch .spotlight {
 }
 
 .wrapper.style2 {
-	background: #e44c65;
-	padding: 6em 0 4em 0;
+  background: #e44c65;
+  padding: 6em 0 4em 0;
 }
 
 .wrapper.style2 input[type='text']:focus,
