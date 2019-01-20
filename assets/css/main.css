@@ -21,8 +21,9 @@
 }
 
 #about-me > .tech-icons > img {
-  height: 2.5em;
+  height: 3em;
   width: auto;
+  margin:  0 .5em .5em .5em;
 }
 
 html,
