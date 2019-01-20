@@ -72,7 +72,7 @@ function init() {
   scene = new THREE.Scene();
 
   // create the camera
-  HEIGHT = window.innerHeight / 3;
+  HEIGHT = (40 * window.innerHeight) / 100;
   WIDTH = window.innerWidth;
   aspectRatio = WIDTH / HEIGHT;
   fieldOfView = 60;
@@ -109,7 +109,7 @@ function init() {
 
   // precalculate the center of the screen, used to update the speed depending on the mouse position
   windowHalfX = WIDTH / 2;
-  windowHalfY = HEIGHT / 7;
+  windowHalfY = HEIGHT / 2;
 
   // handling resize and mouse move events
   window.addEventListener('resize', onWindowResize, false);
@@ -137,7 +137,7 @@ function onWindowResize() {
 function handleMouseMove(event) {
   mousePos = {
     x: event.clientX,
-    y: event.clientY -  (3*window.innerHeight / 4)
+    y: event.clientY - (5 * window.innerHeight) / 8
   };
   updateSpeed();
 }
