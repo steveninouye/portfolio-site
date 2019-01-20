@@ -3499,6 +3499,7 @@ body.landing .dropotron.level-0 {
 #header nav ul li {
   display: inline-block;
   margin-left: 1em;
+  color: gray;
 }
 
 #header nav ul li a,
