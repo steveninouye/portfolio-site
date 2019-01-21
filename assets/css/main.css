@@ -3,7 +3,7 @@
 
 #about-me {
   display: grid;
-  grid-template: auto / 1fr 3fr 2fr;
+  grid-template: auto / 1fr 4fr 3fr;
   grid-gap: 10px;
   justify-content: center;
   padding: 2%;
@@ -31,7 +31,7 @@
 #about-me > .tech-icons > img {
   height: 3.3em;
   width: auto;
-  margin:  0 .73em .73em .73em;
+  margin:  0 .8em .8em .8em;
   opacity: .64;
 }
 
