@@ -422,7 +422,6 @@ small {
 }
 
 ul.side-nav i[class^='mdi-'] {
-  text-shadow: 1px 1px #b1bbb9;
-  /* color: #252525; */
-  color: #39c4ac;
+  text-shadow: 1px 1px #c7cac9;
+  color: #2dbda5;
 }
